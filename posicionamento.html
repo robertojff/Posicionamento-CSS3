@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Posicionamentos (static, relative, absolute  e fixed)</title>
+
+        <style type="text/css">
+
+            body {
+                background: #007fc7;
+            }
+
+            #container {
+                background: #fff;
+                width: 800px;
+                margin: 10px auto;
+                padding: 10px;
+                position: relative;
+            }
+
+            p {
+                width: 300px;
+            }
+
+            .fixed {
+                position: fixed;
+                border: 1px solid red;
+                background: #f2f2f2;
+                top: 0px;
+                right: 0px;
+            }    
+
+            .absolute {
+                position: absolute;
+                border: 1px solid red;
+                top: 80px;
+                right: 80px;
+                background: #f2f2f2;
+            } 
+
+            .relative {
+                border: 1px solid red;
+                position: relative;
+                bottom: -20px;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        
+        <div id="container">
+
+            <h1>Posicionamentos</h1>
+
+            <p>P1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius aliquam saepe optio dolor fugiat aut unde omnis consequatur id reiciendis.</p>
+
+            <p class="fixed">P2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius aliquam saepe optio dolor fugiat aut unde omnis consequatur id reiciendis.</p>
+
+            <p>P3 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius aliquam saepe optio dolor fugiat aut unde omnis consequatur id reiciendis.</p>
+
+            <p>P4 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius aliquam saepe optio dolor fugiat aut unde omnis consequatur id reiciendis.</p>
+            <p>P4 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius aliquam saepe optio dolor fugiat aut unde omnis consequatur id reiciendis.</p>
+            <p>P4 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius aliquam saepe optio dolor fugiat aut unde omnis consequatur id reiciendis.</p>
+            <p>P4 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius aliquam saepe optio dolor fugiat aut unde omnis consequatur id reiciendis.</p>
+            <p>P4 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius aliquam saepe optio dolor fugiat aut unde omnis consequatur id reiciendis.</p>
+
+
+        </div>
+
+    </body>
+</html>
